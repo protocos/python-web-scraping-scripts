@@ -13,5 +13,16 @@ def get_hrefs():
 def add_href(href):
     db = pickledb.load('storage.db', False)
     hrefs = db.get('hrefs')
-    hrefs.append(href)
+    if hrefs is None:
+        hrefs = []
+    if href.startswith("http://") or href.startswith("https://"):
+        if href not in hrefs:
+            hrefs.append(href)
     db.set('hrefs', hrefs)
+    db.dump()
+
+def clear_hrefs():
+    db = pickledb.load('storage.db', False)
+    hrefs = []
+    db.set('hrefs', hrefs)
+    db.dump()

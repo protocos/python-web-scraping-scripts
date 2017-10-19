@@ -1,15 +1,5 @@
-import pickledb
+import reusables
 
-db = pickledb.load('example.db', False)
-print db.get('test')
-print db.getall()
-
-db.set('key', 'value')
-db.set('key2', ['value2', 'value3'])
-db.dump()
-
-test = db.get('key2')
-print test
-
-
-db.dump()
+reusables.add_href('http://test')
+print reusables.get_hrefs()
+reusables.clear_hrefs()
