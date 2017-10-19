@@ -1,5 +1,4 @@
-import time
-import sys
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -11,25 +10,15 @@ minutes = 60
 sleep_duration = 15 * minutes
 hrefs = []
 
-def poll_ebay_for_iPad():
-    r = requests.get(scrape_url)
-    soup = BeautifulSoup(r.content, "html.parser")
+r = requests.get(scrape_url)
+soup = BeautifulSoup(r.content, "html.parser")
 
-    print eval('soup.find_all("li", {"class":"sresult"})')
-    for item in soup.find_all("li", {"class":"sresult"}):
-        a = item.find_all("a")[0]
-        href = a.get("href")
+print eval('soup.find_all("li", {"class":"sresult"})')
+for item in soup.find_all("li", {"class":"sresult"}):
+    a = item.find_all("a")[0]
+    href = a.get("href")
 
-        if href not in hrefs:
-            requests.get(notification_endpoint + href)
-            hrefs.append(href)
+    if href not in hrefs:
+        requests.get(notification_endpoint + href)
+        hrefs.append(href)
 
-try:
-    while True:
-        poll_ebay_for_iPad()
-        time.sleep(minutes)
-except KeyboardInterrupt:
-    print("Quitting the program.")
-except:
-    print("Unexpected error: "+sys.exc_info()[0])
-    raise
