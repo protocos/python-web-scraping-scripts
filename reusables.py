@@ -1,13 +1,20 @@
 import time
 import pickledb
+import requests
+from bs4 import BeautifulSoup
 
 minute = 60
 def sleep(sleep_duration = 15 * minute):
     time.sleep(sleep_duration)
 
+def scrape(url):
+    return BeautifulSoup(requests.get(url).content, "html.parser")
+
 def get_hrefs():
     db = pickledb.load('storage.db', False)
     hrefs = db.get('hrefs')
+    if hrefs is None:
+        hrefs = []
     return hrefs
 
 def add_href(href):
@@ -26,3 +33,12 @@ def clear_hrefs():
     hrefs = []
     db.set('hrefs', hrefs)
     db.dump()
+
+notification_endpoint = "https://maker.ifttt.com/trigger/pushover/with/key/VzmWoFF515H4lf0MNNVyo"
+def send_notification(value1 = "New match found!", value2 = "", value3 = ""):
+    requests.get(notification_endpoint + "?value1=" + value1 + "&value2=" + value2 + "&value3=" + value3)
+
+def check_href_and_send_notification(href):
+    if href not in get_hrefs():
+        send_notification("New iPad Match!", href, href)
+        add_href(href)
