@@ -8,4 +8,4 @@ for item in soup.find_all("li", {"class":"sresult"}):
     a = item.find_all("a")[0]
     href = a.get("href")
 
-    reusables.check_href_and_send_notification(href)
+    reusables.check_href_and_send_notification("New iPad Match!", href)

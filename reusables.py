@@ -38,7 +38,7 @@ notification_endpoint = "https://maker.ifttt.com/trigger/pushover/with/key/VzmWo
 def send_notification(value1 = "New match found!", value2 = "", value3 = ""):
     requests.get(notification_endpoint + "?value1=" + value1 + "&value2=" + value2 + "&value3=" + value3)
 
-def check_href_and_send_notification(href):
+def check_href_and_send_notification(match_text, href):
     if href not in get_hrefs():
-        send_notification("New iPad Match!", href, href)
+        send_notification(match_text, href, href)
         add_href(href)
