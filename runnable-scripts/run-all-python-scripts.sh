@@ -1,4 +1,4 @@
-exec &> logfile.txt
+#exec &> logfile.txt
 
 timestamp() {
     date +"[%Y-%m-%d %H:%M:%S] Running all scripts..."
