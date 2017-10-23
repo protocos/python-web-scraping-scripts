@@ -10,4 +10,4 @@ for item in soup.find_all("div", {"class":"entry"}):
     a = paragraphs[1].find("a")
     href = a.get("href")
 
-    reusables.check_href_and_send_notification("Mustang6G:", description, href)
+    reusables.check_href_and_send_notification("Mustang6G", description, href)
