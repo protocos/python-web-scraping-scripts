@@ -34,11 +34,16 @@ def clear_hrefs():
     db.set('hrefs', hrefs)
     db.dump()
 
-notification_endpoint = "https://maker.ifttt.com/trigger/pushover/with/key/VzmWoFF515H4lf0MNNVyo"
+notification_endpoint = "https://maker.ifttt.com/trigger/notification/with/key/VzmWoFF515H4lf0MNNVyo"
 def send_notification(value1 = "New match found!", value2 = "", value3 = ""):
     requests.get(notification_endpoint + "?value1=" + value1 + "&value2=" + value2 + "&value3=" + value3)
 
 def check_href_and_send_notification(match_text, href):
     if href not in get_hrefs():
         send_notification(match_text, href, href)
+        add_href(href)
+
+def check_href_and_send_notification(match_text, description, href):
+    if href not in get_hrefs():
+        send_notification(match_text, description, href)
         add_href(href)
