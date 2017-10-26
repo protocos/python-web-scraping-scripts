@@ -1,12 +1,17 @@
-#exec &> logfile.txt
+exec &> logfile.txt
 
-timestamp() {
+timestamp_begin() {
     date +"[%Y-%m-%d %H:%M:%S] Running all scripts..."
+}
+
+timestamp_end() {
+    date +"[%Y-%m-%d %H:%M:%S] Run complete. Sleeping for 60 seconds"
+    sleep 60
 }
 
 while true
 do
-    timestamp
+    timestamp_begin
     for f in *.py; do python "$f"; echo "running $f"; done
-    sleep 300
+    timestamp_end
 done
