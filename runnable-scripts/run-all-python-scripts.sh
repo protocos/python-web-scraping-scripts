@@ -12,6 +12,7 @@ timestamp_end() {
 while true
 do
     timestamp_begin
+    git pull
     for f in *.py; do python "$f"; echo "running $f"; done
     timestamp_end
 done

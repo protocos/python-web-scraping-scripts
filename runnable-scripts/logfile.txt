@@ -1,35 +1,15 @@
-running all scripts
+[2017-11-25 14:57:33] Running all scripts...
+From https://github.com/protocos/python-web-scraping-scripts
+   118a338..693023e  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	runnable-scripts/logfile.txt
+	runnable-scripts/run-all-python-scripts.sh
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 118a338..693023e
+running dont-scrape-iPad-eBay.py
+running scrape-GT350-wheel-eBay.py
 running scrape-Mustang6G.py
-Traceback (most recent call last):
-  File "scrape-iPad-craigslist.py", line 5, in <module>
-    soup = reusables.scrape("https://houston.craigslist.org/search/sss?query=ipad+air+2&sort=rel&srchType=T&hasPic=1&search_distance=50&postal=77081&min_price=100&max_price=240")
-  File "../reusables.py", line 11, in scrape
-    return BeautifulSoup(requests.get(url).content, "html.parser")
-  File "/Library/Python/2.7/site-packages/requests/api.py", line 72, in get
-    return request('get', url, params=params, **kwargs)
-  File "/Library/Python/2.7/site-packages/requests/api.py", line 58, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 508, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 618, in send
-    r = adapter.send(request, **kwargs)
-  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 440, in send
-    timeout=timeout
-  File "/Library/Python/2.7/site-packages/urllib3/connectionpool.py", line 601, in urlopen
-    chunked=chunked)
-  File "/Library/Python/2.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
-    httplib_response = conn.getresponse(buffering=True)
-  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1132, in getresponse
-    response.begin()
-  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 453, in begin
-    version, status, reason = self._read_status()
-  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 409, in _read_status
-    line = self.fp.readline(_MAXLINE + 1)
-  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 480, in readline
-    data = self._sock.recv(self._rbufsize)
-  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ssl.py", line 734, in recv
-    return self.read(buflen)
-  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ssl.py", line 621, in read
-    v = self._sslobj.read(len or 1024)
-KeyboardInterrupt
+running scrape-escapehouston.py
 running scrape-iPad-craigslist.py
+[2017-11-25 14:57:51] Run complete. Sleeping for 60 seconds
