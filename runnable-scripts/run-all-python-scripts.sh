@@ -12,6 +12,6 @@ timestamp_end() {
 while true
 do
     timestamp_begin
-    for f in *.py; do python "$f"; echo "running $f"; done
+    for f in scrape-*.py; do python "$f"; echo "running $f"; done
     timestamp_end
 done
