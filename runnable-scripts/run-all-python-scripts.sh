@@ -5,8 +5,7 @@ timestamp_begin() {
 }
 
 timestamp_end() {
-    date +"[%Y-%m-%d %H:%M:%S] Run complete. Sleeping for 60 seconds"
-    sleep 60
+    date +"[%Y-%m-%d %H:%M:%S] Run complete."
 }
 
 while true
