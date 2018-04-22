@@ -9,6 +9,9 @@ timestamp_end() {
     sleep 60
 }
 
+git pull
+pip install pickledb
+pip install beautifulsoup4
 while true
 do
     timestamp_begin
