@@ -10,8 +10,6 @@ timestamp_end() {
 }
 
 git pull
-pip install pickledb
-pip install beautifulsoup4
 while true
 do
     timestamp_begin
