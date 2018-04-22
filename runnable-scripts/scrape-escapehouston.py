@@ -9,4 +9,7 @@ for item in soup.find_all("div", {"class":"post"}):
     title = a.getText()
     href = a.get("href")
 
-    reusables.check_href_and_send_notification("New Flight Deal!", title, href)
+    p = item.find("div", {"class":"excerpt-content"}).find("article").find('p')
+    desc = p.getText()
+
+    reusables.check_href_and_send_notification("New Flight Deal!", desc, href)
