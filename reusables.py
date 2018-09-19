@@ -8,7 +8,7 @@ def sleep(sleep_duration = 15 * minute):
     time.sleep(sleep_duration)
 
 def scrape(url):
-    return BeautifulSoup(requests.get(url).content, "html.parser")
+    return BeautifulSoup(requests.get(url, timeout=30).content, "html.parser")
 
 def get_hrefs():
     db = pickledb.load('storage.db', False)
