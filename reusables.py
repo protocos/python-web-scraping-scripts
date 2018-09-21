@@ -36,7 +36,7 @@ def clear_hrefs():
 
 notification_endpoint = "https://maker.ifttt.com/trigger/news/with/key/VzmWoFF515H4lf0MNNVyo"
 def send_notification(value1 = "New match found!", value2 = "", value3 = ""):
-    requests.get(notification_endpoint + "?value1=" + value1 + "&value2=" + value2 + "&value3=" + value3)
+    requests.get(notification_endpoint + "?value1=" + value1 + "&value2=" + value2 + "&value3=" + value3, timeout=30)
 
 def check_href_and_send_notification(value1, value2, value3):
     if value3 not in get_hrefs():
