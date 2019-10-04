@@ -2,7 +2,6 @@ import sys
 sys.path.append('..')
 import reusables
 
-reusables.clear_hrefs()
 def scrape(soup, carType):
     for item in soup.find_all("li", {"class": "result-row"}):
         a = item.find_all("a")[0]
