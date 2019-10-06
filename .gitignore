@@ -3,3 +3,4 @@
 *.db
 *.pyc
 *logfile.txt
+*auth.txt

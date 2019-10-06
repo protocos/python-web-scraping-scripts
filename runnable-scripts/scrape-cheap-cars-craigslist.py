@@ -1,6 +1,6 @@
-import reusables
 import sys
 sys.path.append('..')
+import reusables
 
 
 def scrape(soup, car_type):
