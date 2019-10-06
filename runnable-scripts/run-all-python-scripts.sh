@@ -13,6 +13,7 @@ while true
 do
     timestamp_begin
     git pull
+    sh dependencies.sh
     for f in scrape-*.py; do echo "running $f..."; python "$f"; done
     timestamp_end
 done
