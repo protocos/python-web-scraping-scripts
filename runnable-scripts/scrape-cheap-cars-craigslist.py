@@ -25,7 +25,7 @@ reusables.clear_hrefs()
 Camry2011 = reusables.scrape(base_query+parameters(min_price, max_price, max_mileage, 2011, "Toyota", "Camry"))
 scrape(Camry2011, "2011 Camry")
 
-Corolla2012 = reusables.scrape(base_query+parameters(min_price, max_price, max_mileage, 2012, "Toyota", "Carolla"))
+Corolla2012 = reusables.scrape(base_query+parameters(min_price, max_price, max_mileage, 2012, "Toyota", "Corolla"))
 scrape(Corolla2012, "2012 Corolla")
 
 Fusion2012 = reusables.scrape(base_query+parameters(min_price, max_price, max_mileage, 2012, "Ford", "Fusion"))
