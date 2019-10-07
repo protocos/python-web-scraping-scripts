@@ -21,7 +21,6 @@ max_price = 7500
 max_mileage = 150000
 
 
-reusables.clear_hrefs()
 Camry2011 = reusables.scrape(base_query+parameters(min_price, max_price, max_mileage, 2011, "Toyota", "Camry"))
 scrape(Camry2011, "2011 Camry")
 
