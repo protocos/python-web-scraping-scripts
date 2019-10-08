@@ -14,7 +14,7 @@ def scrape(car_type, query):
 
         reusables.check_value3_and_send_notification('news_with_image',
                                                      "New "+car_type+" Found for "+price+"!",
-                                                     "%23[Original Post]("+href+")\n\n---\n\n%23%23%23[Original Search]("+query+")",
+                                                     "%23[Original Post]("+href+")",
                                                      img)
 
 
