@@ -53,3 +53,10 @@ def check_href_and_send_notification(value1, value2, value3):
     if value3 not in get_hrefs():
         send_notification(value1, value2, value3)
         add_href(value3)
+
+
+def check_value3_and_send_notification(event_name, value1, value2, value3):
+    if value3 not in get_hrefs():
+        requests.get("https://maker.ifttt.com/trigger/"+event_name+"/with/key/VzmWoFF515H4lf0MNNVyo?value1=" + value1 + "&value2=" + value2 + "&value3=" + value3,
+                     timeout=30)
+        add_href(value3)
