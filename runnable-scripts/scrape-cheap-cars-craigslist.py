@@ -22,7 +22,7 @@ def parameters(min_price, max_price, max_miles, year, make, model):
     return "&min_price="+str(min_price)+"&max_price="+str(max_price)+"&min_auto_year="+str(year)+"&max_auto_year="+str(year)+"&min_auto_miles="+str(1000)+"&max_auto_miles="+str(max_miles)+"&auto_make_model="+str(make)+"+"+str(model)
 
 
-base_query = "https://houston.craigslist.org/search/sss?query=-Credit+-Wheels+-Tires+-Engine+-Motor+-Special+-Low+-Down+-Finance+-Buy&sort=rel&srchType=T&hasPic=1&bundleDuplicates=1"
+base_query = "https://houston.craigslist.org/search/sss?query=-Credit+-Wheels+-Tires+-Engine+-Motor+-Special+-Low+-Down+-Finance+-Buy&sort=rel&srchType=T&hasPic=1&bundleDuplicates=1&postedToday=1"
 min_price = 1300
 max_price = 10000
 max_mileage = 150000
