@@ -15,6 +15,10 @@ def scrape(url):
     return BeautifulSoup(requests.get(url, timeout=30).content, "html.parser")
 
 
+def href_has_not_been_logged(href):
+    return href not in get_hrefs()
+
+
 def get_hrefs():
     db = pickledb.load('storage.db', False)
     hrefs = db.get('hrefs')
@@ -55,8 +59,8 @@ def check_href_and_send_notification(value1, value2, value3):
         add_href(value3)
 
 
-def check_value3_and_send_notification(event_name, value1, value2, value3):
-    if value3 not in get_hrefs():
+def check_key_and_send_notification(event_name, key, value1, value2, value3):
+    if key not in get_hrefs():
         requests.get("https://maker.ifttt.com/trigger/"+event_name+"/with/key/VzmWoFF515H4lf0MNNVyo?value1=" + value1 + "&value2=" + value2 + "&value3=" + value3,
                      timeout=30)
-        add_href(value3)
+        add_href(key)
