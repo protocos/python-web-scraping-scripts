@@ -24,7 +24,7 @@ def parameters(min_price, max_price, max_miles, year, make, model):
 
 base_query = "https://houston.craigslist.org/search/sss?query=-Credit+-Wheels+-Tires+-Engine+-Motor+-Special+-Low+-Down+-Finance+-Buy&sort=rel&srchType=T&hasPic=1&bundleDuplicates=1&postedToday=1"
 min_price = 1300
-max_price = 10000
+max_price = 8500
 max_mileage = 150000
 
 scrape("2011 Camry", base_query+parameters(min_price, max_price, max_mileage, 2011, "Toyota", "Camry"))
