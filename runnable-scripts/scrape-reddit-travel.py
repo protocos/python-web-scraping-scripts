@@ -21,4 +21,4 @@ reddit = praw.Reddit(client_id=auth[0],
 subreddit = reddit.subreddit('travel')
 for submission in subreddit.top(limit=10, time_filter='week'):
     if submission.url.endswith('.jpg'):
-        reusables.check_value3_and_send_notification('guess_where', "Guess where?", "%23[Original Post](https://www.reddit.com/r/travel/comments/"+submission.id+")\n\n---\n\n%23%23%23[IFTTT Recipe](https://ifttt.com/applets/105126139d/edit)", submission.url)
+        reusables.check_key_and_send_notification('guess_where', submission.url, "Guess where?", "%23[Original Post](https://www.reddit.com/r/travel/comments/"+submission.id+")\n\n---\n\n%23%23%23[IFTTT Recipe](https://ifttt.com/applets/105126139d/edit)", submission.url)
