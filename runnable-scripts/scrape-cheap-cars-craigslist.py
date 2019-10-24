@@ -36,6 +36,7 @@ max_price = 7800
 max_mileage = 150000
 
 scrape("2011-2012 Camry", base_query+parameters(min_price, max_price, max_mileage, 2011, 2012, "Toyota", "Camry"))
+scrape("2011-2012 IS250", base_query+parameters(min_price, max_price, max_mileage, 2011, 2019, "Lexus", "IS250"))
 scrape("2012 Corolla", base_query+parameters(min_price, max_price, max_mileage, 2012, 2012, "Toyota", "Corolla"))
 scrape("2012 Fusion", base_query+parameters(min_price, max_price, max_mileage, 2012, 2012, "Ford", "Fusion"))
 scrape("2013 Civic", base_query+parameters(min_price, max_price, max_mileage, 2013, 2013, "Honda", "Civic"))
