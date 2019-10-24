@@ -26,8 +26,8 @@ def scrape(car_type, query):
                                                       img)
 
 
-def parameters(min_price, max_price, max_miles, year, make, model):
-    return "&min_price="+str(min_price)+"&max_price="+str(max_price)+"&min_auto_year="+str(year)+"&max_auto_year="+str(year)+"&min_auto_miles="+str(1000)+"&max_auto_miles="+str(max_miles)+"&auto_make_model="+str(make)+"+"+str(model)
+def parameters(min_price, max_price, max_miles, min_year, max_year, make, model):
+    return "&min_price=" + str(min_price) +"&max_price=" + str(max_price) +"&min_auto_year=" + str(min_year) + "&max_auto_year=" + str(max_year) + "&min_auto_miles=" + str(1000) + "&max_auto_miles=" + str(max_miles) + "&auto_make_model=" + str(make) + "+" + str(model)
 
 
 base_query = "https://houston.craigslist.org/search/sss?query=-Credit+-Wheels+-Tires+-Engine+-Motor+-Special+-Low+-Down+-Finance+-Buy&sort=rel&srchType=T&hasPic=1&bundleDuplicates=1&auto_title_status=1"
@@ -35,8 +35,8 @@ min_price = 1300
 max_price = 7800
 max_mileage = 150000
 
-scrape("2011 Camry", base_query+parameters(min_price, max_price, max_mileage, 2011, "Toyota", "Camry"))
-scrape("2012 Corolla", base_query+parameters(min_price, max_price, max_mileage, 2012, "Toyota", "Corolla"))
-scrape("2012 Fusion", base_query+parameters(min_price, max_price, max_mileage, 2012, "Ford", "Fusion"))
-scrape("2013 Civic", base_query+parameters(min_price, max_price, max_mileage, 2013, "Honda", "Civic"))
-scrape("2012 Accord", base_query+parameters(min_price, max_price, max_mileage, 2012, "Honda", "Accord"))
+scrape("2011-2012 Camry", base_query+parameters(min_price, max_price, max_mileage, 2011, 2012, "Toyota", "Camry"))
+scrape("2012 Corolla", base_query+parameters(min_price, max_price, max_mileage, 2012, 2012, "Toyota", "Corolla"))
+scrape("2012 Fusion", base_query+parameters(min_price, max_price, max_mileage, 2012, 2012, "Ford", "Fusion"))
+scrape("2013 Civic", base_query+parameters(min_price, max_price, max_mileage, 2013, 2013, "Honda", "Civic"))
+scrape("2012 Accord", base_query+parameters(min_price, max_price, max_mileage, 2012, 2012, "Honda", "Accord"))
