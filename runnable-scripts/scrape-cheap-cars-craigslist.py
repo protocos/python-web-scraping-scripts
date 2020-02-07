@@ -35,9 +35,9 @@ min_price = 3100
 max_price = 7600
 max_mileage = 130000
 
-scrape("2001-2006 Lexus LS430", base_query+parameters(min_price, 6000, 200000, 2000, 2020, "Lexus", "LS 430"))
-scrape("2001-2006 Lexus LS430", "https://houston.craigslist.org/search/sss?query=lexus+ls430&srchType=T&hasPic=1&bundleDuplicates=1&min_price=3100&max_price=6000")
-scrape("2001-2006 Lexus LS430", "https://houston.craigslist.org/search/sss?query=lexus+ls+430&srchType=T&hasPic=1&bundleDuplicates=1&min_price=3100&max_price=6000")
+scrape("2001-2006 Lexus LS430", base_query+parameters(min_price, 7000, 200000, 2000, 2020, "Lexus", "LS 430"))
+scrape("2001-2006 Lexus LS430", "https://houston.craigslist.org/search/sss?query=lexus+ls430&srchType=T&hasPic=1&bundleDuplicates=1&search_distance=150&postal=77081&min_price=3100&max_price=7000")
+scrape("2001-2006 Lexus LS430", "https://houston.craigslist.org/search/sss?query=lexus+ls+430&srchType=T&hasPic=1&bundleDuplicates=1&search_distance=150&postal=77081&min_price=3100&max_price=7000")
 scrape("2012 Camry", base_query+parameters(min_price, 7100, max_mileage, 2012, 2012, "Toyota", "Camry"))
 scrape("2011-2012 IS250", base_query+parameters(min_price, max_price, max_mileage, 2011, 2019, "Lexus", "IS250"))
 scrape("2012 Corolla", base_query+parameters(min_price, 6800, max_mileage, 2012, 2012, "Toyota", "Corolla"))
