@@ -7,7 +7,7 @@ import json
 base_url = "https://www.producthunt.com"
 soup = reusables.scrape(base_url)
 
-threshold = 100
+threshold = 200
 
 
 def get_post_link(div):
