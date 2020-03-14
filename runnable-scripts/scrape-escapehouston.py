@@ -1,9 +1,12 @@
 import sys
 import re
+import requests
+import urllib
 sys.path.append('..')
 import reusables
 
 soup = reusables.scrape("https://escapehouston.com/")
+
 
 for item in soup.find_all("div", {"class":"post"}):
     a = item.find("h2", {"class":"excerpt-title"}).find("a")
@@ -28,16 +31,23 @@ for item in soup.find_all("div", {"class":"post"}):
         timeframe = matches.group(8)
         additional_info_separated_by_sentences = matches.group(9)
 
-        cardTitle = 'Flight :: ' + destination + ' for ' + cost + ' ' + timeframe
-        cardDescription = ("Origin: "+origin+"\n"
-                           "Destination: "+destination+"\n"
-                           "Cost: "+cost+"\n"
-                           "Type: "+type_of_flight+", "+connection+"\n"
-                           "Timeframe: "+timeframe+"\n"
-                           "\n"
-                           ""+additional_info_separated_by_sentences+"\n")
-        print("cardTitle",cardTitle)
-        print("cardDescription",cardDescription)
+        # cardTitle = 'Flight to ' + destination + ' in ' + timeframe + ' for ' + cost
+        cardDescription = ("#[Original Post]("+href+")"
+                           "\n\n**Origin**: "+origin+""
+                           "\n**Destination**: "+destination+""
+                           "\n**Cost**: "+cost+""
+                           "\n**Type**: "+type_of_flight+", "+connection+""
+                           "\n**Timeframe**: "+timeframe+""
+                           "\n\n"+additional_info_separated_by_sentences+""
+                           )
+
+        if href not in reusables.get_hrefs():
+            requests.post("https://en1wwvea98k42yd.m.pipedream.net/", {
+                "boardName": "Reading Material 📕",
+                "listName": "News",
+                "cardName": title,
+                "cardDescription": cardDescription
+            }, timeout=30)
+            reusables.add_href(href)
     else:
-        print(desc)
-    reusables.check_href_and_send_notification("New Flight Deal!", desc, href)
+        reusables.check_href_and_send_notification("New Flight Deal!", desc, href)
