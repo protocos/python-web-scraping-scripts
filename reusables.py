@@ -1,7 +1,9 @@
 import time
 import pickledb
 import requests
+import platform
 from bs4 import BeautifulSoup
+from selenium import webdriver
 
 minute = 60
 
@@ -14,6 +16,23 @@ def scrape(url):
     print("Scraping url", url)
     return BeautifulSoup(requests.get(url, timeout=30).content, "html.parser")
 
+def scrape_with_selenium(url):
+    print("Scraping url with selenium", url)
+
+    geckodriver = './geckodriver'
+    os = platform.system()
+    if os == "Darwin":
+        geckodriver = './macOS/geckodriver'
+    if os == "Linux":
+        geckodriver = './linux/geckodriver'
+
+    options = webdriver.FirefoxOptions()
+    options.add_argument('-headless')
+    browser = webdriver.Firefox(executable_path=geckodriver, firefox_options=options)
+    browser.get(url)
+    html = browser.page_source
+    browser.quit()
+    return BeautifulSoup(html, "html.parser")
 
 def href_has_not_been_logged(href):
     return href not in get_hrefs()
