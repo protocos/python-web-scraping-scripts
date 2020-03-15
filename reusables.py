@@ -4,6 +4,7 @@ import requests
 import platform
 from bs4 import BeautifulSoup
 from selenium import webdriver
+import os
 
 minute = 60
 
@@ -19,16 +20,18 @@ def scrape(url):
 def scrape_with_selenium(url):
     print("Scraping url with selenium", url)
 
-    geckodriver = './geckodriver'
-    os = platform.system()
-    if os == "Darwin":
-        geckodriver = './macOS/geckodriver'
-    if os == "Linux":
-        geckodriver = './linux/geckodriver'
+    base_file_path = str(os.getcwd())
+    geckodriver_path = base_file_path + '/geckodriver'
+
+    operating_system = platform.system()
+    if operating_system == "Darwin":
+        geckodriver_path = base_file_path + '/macOS/geckodriver'
+    if operating_system == "Linux":
+        geckodriver_path = base_file_path + '/linux/geckodriver'
 
     options = webdriver.FirefoxOptions()
     options.add_argument('-headless')
-    browser = webdriver.Firefox(executable_path=geckodriver, firefox_options=options)
+    browser = webdriver.Firefox(firefox_options=options)
     browser.get(url)
     html = browser.page_source
     browser.quit()
