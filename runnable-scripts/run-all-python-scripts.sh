@@ -6,7 +6,7 @@ timestamp_begin() {
 
 timestamp_end() {
     date +"[%Y-%m-%d %H:%M:%S] Run complete."
-    sleep 60
+    sleep 180
 }
 
 while true
