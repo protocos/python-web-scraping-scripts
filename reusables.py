@@ -31,7 +31,7 @@ def scrape_with_selenium(url):
 
     options = webdriver.FirefoxOptions()
     options.add_argument('-headless')
-    browser = webdriver.Firefox(firefox_options=options)
+    browser = webdriver.Firefox(executable_path=geckodriver_path, firefox_options=options)
     browser.get(url)
     html = browser.page_source
     browser.quit()
