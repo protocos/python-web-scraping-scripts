@@ -4,3 +4,4 @@
 *.pyc
 *logfile.txt
 *auth.txt
+*.log
