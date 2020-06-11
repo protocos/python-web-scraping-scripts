@@ -22,8 +22,73 @@ def get_post_link(div):
     image_link = "https://ph-files.imgix.net/" + image_uuid
     return image_link
 
+# blacklist = requests.get("https://ent7ghk7utpt6zj.m.pipedream.net").json().get("blacklist")
 
-blacklist = []  # requests.get("https://ent7ghk7utpt6zj.m.pipedream.net").json().get("blacklist")
+
+blacklist = [
+    "WordPress",
+    "Instagram",
+    "Crypto",
+    "Marketing",
+    "Design Tools",
+    "Venture Capital",
+    "Hiring",
+    "Recruiting",
+    "Sales",
+    "Nomad",
+    "Augmented Reality",
+    "Social Media Tools",
+    "Photography",
+    "Meditation",
+    "Task Management",
+    "Facebook Messenger",
+    "Startup",
+    "Facebook",
+    "entrepreneur",
+    "Messaging",
+    "Growth Hacking",
+    "Sketch",
+    "E-Commerce",
+    "Bitcoin",
+    "selfie",
+    "Freelance",
+    "Hire",
+    "Kids",
+    "CSS",
+    "Meetings",
+    "User Experience",
+    "Health and Fitness",
+    "Meetings",
+    "Twitter",
+    "Funny",
+    "students",
+    "Freelance",
+    "SEO",
+    "Branding",
+    "Politics",
+    "Sports",
+    "Customer",
+    "Art",
+    "3D Printing",
+    "Billing",
+    "Writing Tools",
+    "Snapchat",
+    "invoic",
+    "podcast",
+    "news",
+    "investor",
+    "Product Hunt",
+    "icons",
+    "midi",
+    "productivity",
+    "highlighter",
+    "employee",
+    "Education",
+    "Coffee",
+    "Pets",
+    "your website",
+    "patent",
+]
 
 
 for item in soup.find_all("li"):
@@ -49,7 +114,7 @@ for item in soup.find_all("li"):
                     productDescription = div.find("p").get_text()
 
                     cardName = productName + " :: " + productDescription + "[in "+categoriesString+"]"
-
+                    print(cardName)
                     skip_this_one = False
                     for blacklist_term in blacklist:
                         if blacklist_term.lower() in cardName.lower():
@@ -58,7 +123,7 @@ for item in soup.find_all("li"):
                     if skip_this_one:
                         reusables.add_href(link)
                         continue
-
+                    break
                     imageLink = get_post_link(div)
                     cardDescription = ("#["+productName+"]("+link+")"
                                        "\n\n"
