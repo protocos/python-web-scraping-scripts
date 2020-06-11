@@ -31,7 +31,9 @@ for item in soup.find_all("li"):
         a = item.find("a")
         href = a.get("href")
         link = base_url + href
-        if link not in reusables.get_hrefs():
+        split_link = link.split("?", 1)
+        link_with_no_querystring = split_link[0]
+        if link_with_no_querystring not in reusables.get_hrefs():
             try:
                 voteButton = item.find("div", {"class": "voteButtonWrap_4c515"})
                 voteNumber = int(item.find("span").find("span").get_text())
