@@ -1,7 +1,6 @@
 import sys
 sys.path.append('..')
 import reusables
-import requests
 import json
 
 base_url = "https://www.producthunt.com"
@@ -128,14 +127,20 @@ for item in soup.find_all("li"):
                     cardDescription = ("#["+productName+"]("+link+")"
                                        "\n\n"
                                        "["+categoriesString+"]")
-
-                    requests.post("https://en1wwvea98k42yd.m.pipedream.net/", {
+                    print({
                         "boardName": "Reading Material 📕",
                         "listName": "Product Hunt",
                         "cardName": cardName,
                         "cardDescription": cardDescription,
                         "attachmentUrl": imageLink
-                    }, timeout=30)
+                    })
+                    # requests.post("https://en1wwvea98k42yd.m.pipedream.net/", {
+                    #     "boardName": "Reading Material 📕",
+                    #     "listName": "Product Hunt",
+                    #     "cardName": cardName,
+                    #     "cardDescription": cardDescription,
+                    #     "attachmentUrl": imageLink
+                    # }, timeout=30)
                     reusables.add_href(link)
             except Exception as inst:
                 print(type(inst))
