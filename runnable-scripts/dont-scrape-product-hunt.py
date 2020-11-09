@@ -9,7 +9,6 @@ soup = reusables.scrape(base_url)
 
 threshold = 100
 
-
 def get_post_link(div):
     post = "Post" + div.get("data-test").lstrip("post-item-")
     script = soup.find_all("script")[6].get_text() \
