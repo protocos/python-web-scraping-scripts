@@ -44,7 +44,7 @@ def href_has_not_been_logged(href):
 def get_hrefs():
     db = pickledb.load('storage.db', False)
     hrefs = db.get('hrefs')
-    if hrefs is None:
+    if hrefs is None or hrefs is False:
         hrefs = []
     return hrefs
 
