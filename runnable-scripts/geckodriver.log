@@ -1060,3 +1060,635 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605035770684	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileaUC6WP"
+*** You are running in headless mode.
+1605035771485	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:16:12.677 plugin-container[74982:706249] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:16:12.906 plugin-container[74982:706249] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x111d88fa0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:16:12.914 plugin-container[74982:706262] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605035773098	Marionette	INFO	Listening on port 55281
+1605035773126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605035773174	Marionette	DEBUG	Register listener.js for window 2147483649
+1605035773203	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605035773751	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605035773751	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605035776633	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605035777400	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+[Child 74982, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 74982, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605035807525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileE9bYkc"
+*** You are running in headless mode.
+1605035808029	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:16:48.716 plugin-container[75011:707910] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1510b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:16:48.906 plugin-container[75011:707910] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11668afd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:16:48.913 plugin-container[75011:707926] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605035809187	Marionette	INFO	Listening on port 55536
+1605035809272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605035809331	Marionette	DEBUG	Register listener.js for window 2147483649
+1605035809373	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605035810142	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605035810143	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605035813864	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605035814421	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605035919412	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile33nLjh"
+*** You are running in headless mode.
+1605035920174	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:18:41.227 plugin-container[75129:714747] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xab47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:18:41.373 plugin-container[75129:714747] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10fc88fa0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:18:41.380 plugin-container[75129:714778] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605035921973	Marionette	INFO	Listening on port 56262
+1605035922006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605035922074	Marionette	DEBUG	Register listener.js for window 2147483649
+1605035922123	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605035922934	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605035922934	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605035924630	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605035925902	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605035944112	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile5Rzjk6"
+*** You are running in headless mode.
+1605035944640	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:19:05.375 plugin-container[75162:715918] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:19:05.494 plugin-container[75162:715918] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x118f8dfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:19:05.499 plugin-container[75162:715933] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605035946167	Marionette	INFO	Listening on port 56464
+1605035946197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605035946246	Marionette	DEBUG	Register listener.js for window 2147483649
+1605035946274	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605035946830	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605035946830	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605035948320	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605035949506	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605035961309	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile5XbH9D"
+*** You are running in headless mode.
+1605035961813	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:19:22.509 plugin-container[75180:716899] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:19:22.631 plugin-container[75180:716899] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11598cfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:19:22.637 plugin-container[75180:716910] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605035963317	Marionette	INFO	Listening on port 56628
+1605035963367	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605035963416	Marionette	DEBUG	Register listener.js for window 2147483649
+1605035963438	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605035964040	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605035964040	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605035967010	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605035968221	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036048595	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile6xMLJR"
+*** You are running in headless mode.
+1605036049265	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:20:50.226 plugin-container[75236:720655] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15347, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:20:50.346 plugin-container[75236:720655] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x112045a30 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:20:50.351 plugin-container[75236:720666] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036050630	Marionette	INFO	Listening on port 57108
+1605036050652	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036050707	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036050756	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036052630	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036052631	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036054532	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036055637	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036074022	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile32gtel"
+*** You are running in headless mode.
+1605036074536	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:21:15.235 plugin-container[75269:722367] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:21:15.361 plugin-container[75269:722367] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x117d8cfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:21:15.365 plugin-container[75269:722378] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036075597	Marionette	INFO	Listening on port 57315
+1605036075672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036075721	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036075745	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036076185	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036076185	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036077792	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036078945	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605036104598	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileTwo2qi"
+*** You are running in headless mode.
+1605036105104	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:21:45.882 plugin-container[75310:723856] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:21:46.003 plugin-container[75310:723856] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11228bfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:21:46.012 plugin-container[75310:723871] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036106700	Marionette	INFO	Listening on port 57524
+1605036106746	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036106796	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036106833	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036107372	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036107373	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036109034	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036112716	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036124069	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile84onKy"
+*** You are running in headless mode.
+1605036124580	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:22:05.351 plugin-container[75327:724884] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:22:05.478 plugin-container[75327:724884] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10d888fd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:22:05.483 plugin-container[75327:724895] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036125742	Marionette	INFO	Listening on port 57714
+1605036125816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036125871	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036125889	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036126482	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036126482	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036127980	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036129153	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036256320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileQVNm6g"
+*** You are running in headless mode.
+1605036256910	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:24:17.690 plugin-container[75408:730418] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1520b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:24:17.812 plugin-container[75408:730418] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x115a8afd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:24:17.816 plugin-container[75408:730431] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036258082	Marionette	INFO	Listening on port 58372
+1605036258168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036258213	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036258242	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036258732	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036258732	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036260298	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036261472	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75408, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036271451	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofilen4c1qU"
+*** You are running in headless mode.
+1605036271977	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:24:32.712 plugin-container[75423:731412] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad0b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:24:32.830 plugin-container[75423:731412] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10d645a30 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:24:32.834 plugin-container[75423:731429] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036273035	Marionette	INFO	Listening on port 58515
+1605036273112	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036273158	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036273178	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036273671	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036273671	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036275121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036276261	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036296797	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileitCR20"
+*** You are running in headless mode.
+1605036297251	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:24:57.920 plugin-container[75441:732665] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac0b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:24:58.038 plugin-container[75441:732665] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11908afd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:24:58.041 plugin-container[75441:732682] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036298241	Marionette	INFO	Listening on port 58708
+1605036298333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036298378	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036298394	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036298983	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036298984	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036302786	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036304088	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+[Child 75441, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75441, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036334939	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile9v7z86"
+*** You are running in headless mode.
+1605036335519	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:25:36.350 plugin-container[75473:735082] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:25:36.485 plugin-container[75473:735082] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10f48afd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:25:36.491 plugin-container[75473:735094] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036336771	Marionette	INFO	Listening on port 58960
+1605036336809	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036336860	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036336886	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036337556	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036337557	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036339086	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036340274	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+[Child 75473, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75473, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75473, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75473, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75473, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 75473, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036378192	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileM2erQj"
+*** You are running in headless mode.
+1605036378759	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:26:19.546 plugin-container[75504:737598] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15347, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:26:19.724 plugin-container[75504:737598] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11af8bfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:26:19.729 plugin-container[75504:737609] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036379959	Marionette	INFO	Listening on port 59230
+1605036380044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036380094	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036380137	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036380705	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036380706	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036382325	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036383190	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036392206	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileaD8OxP"
+*** You are running in headless mode.
+1605036392674	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:26:33.394 plugin-container[75518:738468] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:26:33.537 plugin-container[75518:738468] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x118986fd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:26:33.541 plugin-container[75518:738489] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036393758	Marionette	INFO	Listening on port 59368
+1605036393847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036393893	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036393932	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036394410	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036394410	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036395835	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036396988	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036404368	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofilezVno2G"
+*** You are running in headless mode.
+1605036405188	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:26:46.135 plugin-container[75536:739434] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:26:46.271 plugin-container[75536:739434] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x110c8dfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:26:46.275 plugin-container[75536:739445] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036407191	Marionette	INFO	Listening on port 59507
+1605036407233	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036407281	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036407298	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036408017	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036408018	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036409635	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036411474	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036425179	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofilebzj1w9"
+*** You are running in headless mode.
+1605036425660	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:27:06.343 plugin-container[75572:740675] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15143, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:27:06.462 plugin-container[75572:740675] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10a044a30 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:27:06.466 plugin-container[75572:740692] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036426664	Marionette	INFO	Listening on port 59686
+1605036426733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036426781	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036426815	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036427305	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036427305	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036428752	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036429887	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605036527755	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileY3p0A8"
+*** You are running in headless mode.
+1605036528381	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:28:49.195 plugin-container[75666:745578] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15347, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:28:49.330 plugin-container[75666:745578] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x113186fd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:28:49.334 plugin-container[75666:745589] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605036529639	Marionette	INFO	Listening on port 60211
+1605036529736	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605036529806	Marionette	DEBUG	Register listener.js for window 2147483649
+1605036529857	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605036530790	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605036530790	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605036534036	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605036535222	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605037440126	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileSdbssl"
+*** You are running in headless mode.
+1605037440852	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:44:01.761 plugin-container[76070:782364] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15203, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:44:02.006 plugin-container[76070:782364] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x110d8dfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:44:02.017 plugin-container[76070:782386] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605037442666	Marionette	INFO	Listening on port 64372
+1605037442710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605037442761	Marionette	DEBUG	Register listener.js for window 2147483649
+1605037442807	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605037443267	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605037443268	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605037444958	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605037446083	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605037550802	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileYwksvD"
+*** You are running in headless mode.
+1605037551429	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:45:52.279 plugin-container[76136:786966] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:45:52.406 plugin-container[76136:786966] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x117b8dfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:45:52.411 plugin-container[76136:786985] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605037552703	Marionette	INFO	Listening on port 64958
+1605037552779	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605037552828	Marionette	DEBUG	Register listener.js for window 2147483649
+1605037552871	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605037553544	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605037553545	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605037555185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605037556134	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605037571403	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofilePrUuzz"
+*** You are running in headless mode.
+1605037571938	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:46:12.665 plugin-container[76154:787984] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaf3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:46:12.792 plugin-container[76154:787984] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10fe85fd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:46:12.797 plugin-container[76154:787995] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605037573322	Marionette	INFO	Listening on port 65133
+1605037573367	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605037573417	Marionette	DEBUG	Register listener.js for window 2147483649
+1605037573449	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605037574092	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605037574092	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605037575712	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605037576988	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605037592935	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile16siNI"
+*** You are running in headless mode.
+1605037593418	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:46:34.189 plugin-container[76175:789287] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xae47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:46:34.321 plugin-container[76175:789287] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11a68bfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:46:34.325 plugin-container[76175:789298] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605037594998	Marionette	INFO	Listening on port 65309
+1605037595102	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605037595153	Marionette	DEBUG	Register listener.js for window 2147483649
+1605037595181	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605037595598	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605037595598	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605037597197	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605037598345	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400A8,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605037811598	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileRe9I04"
+*** You are running in headless mode.
+1605037812247	Marionette	INFO	Enabled via --marionette
+2020-11-10 13:50:13.244 plugin-container[76279:797496] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15147, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 13:50:13.370 plugin-container[76279:797496] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x11a58cfa0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 13:50:13.377 plugin-container[76279:797515] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605037813787	Marionette	INFO	Listening on port 49968
+1605037813885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605037813933	Marionette	DEBUG	Register listener.js for window 2147483649
+1605037813988	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605037814491	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605037814491	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605037816137	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605037816900	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605038749354	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofilek4Vvdj"
+*** You are running in headless mode.
+1605038750147	Marionette	INFO	Enabled via --marionette
+2020-11-10 14:05:51.130 plugin-container[76852:834584] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x15247, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 14:05:51.314 plugin-container[76852:834584] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10e58cfd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 14:05:51.319 plugin-container[76852:834603] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605038751520	Marionette	INFO	Listening on port 54180
+1605038751613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605038751674	Marionette	DEBUG	Register listener.js for window 2147483649
+1605038751705	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605038752574	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605038752575	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605038754177	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605038755365	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605038970135	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofileivIuuq"
+*** You are running in headless mode.
+1605038970728	Marionette	INFO	Enabled via --marionette
+2020-11-10 14:09:31.528 plugin-container[76975:843961] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 14:09:31.647 plugin-container[76975:843961] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x114b89fd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 14:09:31.650 plugin-container[76975:843979] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605038972050	Marionette	INFO	Listening on port 55244
+1605038972196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605038972271	Marionette	DEBUG	Register listener.js for window 2147483649
+1605038972321	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605038972785	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605038972786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605038974361	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605038975607	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605039053541	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofilee7Vzgv"
+*** You are running in headless mode.
+1605039054190	Marionette	INFO	Enabled via --marionette
+2020-11-10 14:10:54.964 plugin-container[77029:848391] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xac47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 14:10:55.092 plugin-container[77029:848391] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x10f18afd0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 14:10:55.096 plugin-container[77029:848409] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605039055336	Marionette	INFO	Listening on port 55706
+1605039055386	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605039055433	Marionette	DEBUG	Register listener.js for window 2147483649
+1605039055474	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605039056077	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605039056078	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605039057719	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605039058931	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605039087799	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/dj/j9ks5_4x7w94b3r_33qt3xmc0000gn/T/rust_mozprofile0DYAc4"
+*** You are running in headless mode.
+1605039088432	Marionette	INFO	Enabled via --marionette
+2020-11-10 14:11:29.169 plugin-container[77057:849859] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x1500b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2020-11-10 14:11:29.285 plugin-container[77057:849859] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x1151de7f0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+2020-11-10 14:11:29.290 plugin-container[77057:849878] +[NSXPCSharedListener endpointForReply:withListenerName:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+1605039089619	Marionette	INFO	Listening on port 55933
+1605039089667	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605039089715	Marionette	DEBUG	Register listener.js for window 2147483649
+1605039089739	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1605039090203	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1605039090203	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1605039091694	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+1605039092948	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/2_p/?searchQueryState=%7B%22pagination%22%3A%7B%22currentPage%22%3A1%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.55223850185983%2C%22east%22%3A-95.35139469082468%2C%22south%22%3A29.672777996777466%2C%22north%22%3A29.807668861865455%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
