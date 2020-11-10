@@ -34,7 +34,11 @@ for page_num in range(1, 20):
 
         card_description = "###["+house_address+"]("+house_listing_url+")"
 
-        house_image_url = item.find("img")['src']
+        house_image = item.find("img")
+        house_image_url = ""
+
+        if house_image is not None:
+            house_image_url = house_image['src']
 
         if house_listing_url not in reusables.get_hrefs():
             requests.post("https://en1wwvea98k42yd.m.pipedream.net/", {
