@@ -34,6 +34,7 @@ for item in list_results:
                        "\nlongitude: " + str(longitude)
 
     if detailUrl not in reusables.get_hrefs():
+        reusables.add_href(detailUrl)
         requests.post("https://en1wwvea98k42yd.m.pipedream.net/", {
             "boardName": "House Buying",
             "listName": "New Listings",
@@ -41,4 +42,3 @@ for item in list_results:
             "cardDescription": card_description,
             "attachmentUrl": imgSrc
         }, timeout=30)
-        reusables.add_href(detailUrl)
