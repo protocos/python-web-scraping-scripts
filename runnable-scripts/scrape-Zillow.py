@@ -3,7 +3,7 @@ sys.path.append('..')
 import reusables
 import requests
 
-url = "https://www.zillow.com/homes/for_sale/house_type/3-_beds/2.0-_baths/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-95.547946967436%2C%22east%22%3A-95.3004112618696%2C%22south%22%3A29.633021435312216%2C%22north%22%3A29.9027284395139%7D%2C%22mapZoom%22%3A12%2C%22customRegionId%22%3A%2204dfb5fa9aX1-CR1smkm24933nge_u77s3%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A550000%7D%2C%22beds%22%3A%7B%22min%22%3A3%7D%2C%22baths%22%3A%7B%22min%22%3A2%7D%2C%22sqft%22%3A%7B%22min%22%3A2000%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22sch%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22max%22%3A1832%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22abo%22%3A%7B%22value%22%3Atrue%7D%7D%2C%22isListVisible%22%3Atrue%7D"
+url = ""
 soup = reusables.scrape_with_selenium(url)
 
 items = soup.find("div", {"id": "search-page-list-container"}).find_all("li")
@@ -35,6 +35,7 @@ for item in items:
     house_image_url = item.find("img")['src']
 
     if house_listing_url not in reusables.get_hrefs():
+        reusables.add_href(house_listing_url)
         requests.post("https://en1wwvea98k42yd.m.pipedream.net/", {
             "boardName": "House Buying",
             "listName": "New Listings",
@@ -42,4 +43,3 @@ for item in items:
             "cardDescription": card_description,
             "attachmentUrl": house_image_url
         }, timeout=30)
-        reusables.add_href(house_listing_url)
