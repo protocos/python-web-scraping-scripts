@@ -33,8 +33,11 @@ for item in list_results:
                        "\nlatitude: " + str(latitude) + \
                        "\nlongitude: " + str(longitude)
 
+    print('Evaluating', detailUrl)
     if detailUrl not in reusables.get_hrefs():
+        print('...not in reusables.get_hrefs()')
         reusables.add_href(detailUrl)
+        print('...added to reusables.get_hrefs()')
         requests.post("https://en1wwvea98k42yd.m.pipedream.net/", {
             "boardName": "House Buying",
             "listName": "New Listings",
