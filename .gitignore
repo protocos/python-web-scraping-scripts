@@ -5,3 +5,4 @@
 *logfile.txt
 *auth.txt
 *.log
+geckodriver.log
